@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed; /* Makes the navbar stay on top */
+    top: 0; /* Aligns it at the top of the page */
+    width: 100%; /* Ensures the navbar spans the full width */
+    background-color: #333; /* Background color for the navbar */
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding-top: 70px; /* Offset to account for the fixed navbar height */
+    height: 2000px; /* Dummy height for scrolling */
+}
