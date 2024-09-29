@@ -29,7 +29,7 @@ h1, h2, h3{
 }
 
 h1 {
-    padding-top: 24px;
+    padding-top: 30px !important;
     font-size: 48px;
 }
 
